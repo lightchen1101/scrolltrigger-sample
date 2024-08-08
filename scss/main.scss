@@ -1,0 +1,39 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(//fonts.googleapis.com/earlyaccess/notosanssc.css);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Noto Sans TC';
+}
+
+:root {
+    --main-bg-color:#f6f6f6;
+    --main-color:#002f94;
+    --main-color-light:#fff;
+    --main-color-dark:#000;
+    --main-font-light:#fff;
+    --main-font-dark:#000;
+    --sub-color:#0d40c3;
+    --sub-color-dark:#4b4b4b;
+    --input-border: #8b8a8b;
+    --input-focus-h: 200;
+    --input-focus-s: 100%;
+    --input-focus-l: 42%;
+    --act-submit:#0d40c3;
+    --act-reset:#f9f9f9;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 200%;
+    overflow-x: hidden;
+}
+#cat-animation {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+}
